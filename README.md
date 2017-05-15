@@ -10,7 +10,7 @@
 
 打开终端，执行下面的命令就自动安装好了：
 
-`wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x`
+`wget -qO- https://github.com/huangxiaohen2738/vim/master/setup.sh | sh -x`
 
 ### 或者自己手动安装：(以ubuntu为例)
 
@@ -19,7 +19,7 @@
 - 安装一些必备程序：`sudo apt-get install xclip vim-gnome astyle python-setuptools`
 - python代码格式化工具：`sudo easy_install -ZU autopep8`
 - `sudo ln -s /usr/bin/ctags /usr/local/bin/ctags`
-- clone配置文件：`cd ~/ && git clone git://github.com/ma6174/vim.git`
+- clone配置文件：`cd ~/ && git clone git://github.com/huangxiaohen2738/vim.git`
 - `mv ~/vim ~/.vim`
 - `mv ~/.vim/.vimrc ~/`
 - clone bundle 程序：`git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
